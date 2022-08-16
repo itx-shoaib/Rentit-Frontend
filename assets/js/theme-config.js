@@ -114,7 +114,7 @@ var themeConfig = {
         var $this = this;
         var config = $('<div />')
             .attr('id', 'themeConfig')
-            .addClass('theme-config visible-lg')
+            .addClass('theme-config')
             .append($('<h4 />').html('Settings')
                 .addClass('theme-config-head')
                 .append($('<a />')

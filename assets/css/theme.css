@@ -91,7 +91,21 @@
   text-transform: uppercase;
 }
 .bg{
-  background-image: url("assets/img/home-bg.jpg");
+  background-image: url(../img/preview/slider/slide-1.jpg);
+  background-size: cover;
+  /* width: 100% !important; */
+  height: auto;
+  padding: 20px;
+
+}
+
+.top-right{
+  padding: 20px;
+  /* float: right; */
+  /* position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px; */
 }
 .spinner {
   margin: 0 auto;
@@ -173,6 +187,10 @@ html {
 }
 body {
   min-height: 100%;
+}
+
+.customform{
+ margin: 40px;
 }
 .content-area {
   position: relative;
@@ -1423,7 +1441,7 @@ input[type=checkbox] {
   width: 220px;
   height: 100px;
   line-height: 100px;
-  background-color: #e60000;
+  background-color: black;
   position: absolute;
   z-index: 999;
   top: 0;
@@ -1436,6 +1454,7 @@ input[type=checkbox] {
 }
 .logo img {
   max-width: 100%;
+  width: 69%;
   height: auto;
 }
 .is-sticky .logo {
@@ -1533,6 +1552,10 @@ input[type=checkbox] {
   padding-right: 0 !important;
   background-color: transparent !important;
 }
+
+#themeConfig{
+  display: none;
+}
 .navigation ul.social-icons li a {
   padding: 0;
   border: none;
@@ -1544,7 +1567,7 @@ input[type=checkbox] {
 }
 .navigation ul.social-icons li a:hover {
   background-color: transparent;
-  color: #e60000;
+  color: #fc3f0d;
 }
 .full-screen-map .navigation .nav.sf-menu {
   display: block;
@@ -2262,6 +2285,7 @@ input[type=checkbox] {
   font-size: 30px !important;
   margin: 0 !important;
   font-weight: 200px !important;
+  color: #ffffff !important;
   /* padding: 40px; */
 }
 .caption-title {
@@ -2281,8 +2305,9 @@ input[type=checkbox] {
 .custom-subtitle{
   text-align: center !important;
   font-size: 50px !important;
-  font-weight: 300 !important;
+  font-weight: 900 !important;
   margin: 0 !important;
+  /* color: #ffffff !important; */
 }
 .caption-subtitle {
   font-family: 'Raleway', sans-serif;
@@ -2293,7 +2318,24 @@ input[type=checkbox] {
   color: #0c0c0c;
   margin: 0 0 40px 0;
 }
+.custom-text{
+  text-align: center !important;
+  font-size: 40px !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  /* font-size: 18px; */
+  /* line-height: 20px; */
+  color: #ffffff;
+  /* margin-bottom: 0; */
+}
 
+.marginTop{
+  margin-top: 80px;
+}
+
+.bg-logo{
+  background-color: black;
+}
 @media (max-width: 1280px) {
   .caption-subtitle {
     font-size: 60px;
@@ -2337,7 +2379,7 @@ input[type=checkbox] {
 .main-slider .caption-text {
   font-size: 18px;
   line-height: 20px;
-  color: #ffffff;
+  color: #050505;
   margin-bottom: 0;
 }
 .main-slider .caption-text + .caption-text {

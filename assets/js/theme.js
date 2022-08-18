@@ -448,7 +448,7 @@ jQuery(document).ready(function () {
                 pagination: '#swiperSlider1x1 .row.car-thumbnails',
                 paginationClickable: true,
                 paginationBulletRender: function (index, className) {
-                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="assets/img/preview/cars/car-70x70x' + (index + 1) + '.jpg" alt=""/></a></div>';
+                    return '<div class="col-xs-2 col-sm-2 col-md-3 ' + className + '"><a href="#"><img src="assets/img/preview/cars/luxury' + (index + 1) + '.jpg" style="height:70px;width:70px;" alt=""/></a></div>';
                 }
             });
         }

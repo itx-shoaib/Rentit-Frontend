@@ -1755,7 +1755,7 @@ input[type=checkbox] {
 .sf-menu li.sale > a {
   /* background-color: #e60000; */
   color: #a5abb7;
-  background-color: white;
+  background-color: #fbfbfb;
 }
 .menu-toggle {
   display: none;
@@ -5612,6 +5612,7 @@ input[type=checkbox] {
   padding-left: 0;
   padding-right: 0;
   background-color: rgba(20, 24, 28, 0.6);
+  /* background-color: #fc3f0d !important; */
 }
 .products.wall .caption-title,
 .products.wall .caption-title a {

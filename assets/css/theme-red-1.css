@@ -1618,6 +1618,7 @@ input[type=checkbox] {
 }
 .sf-menu a {
   color: #a5abb7;
+  /* color: #a5abb7; */
 }
 .sf-menu a:hover {
   color: #14181c;
@@ -1747,10 +1748,14 @@ input[type=checkbox] {
   padding-bottom: 8px;
   color: #14181c;
 }
-.sf-menu li.sale > a:hover,
+.sf-menu li.sale > a:hover{
+  color: black;
+  background-color: white;
+}
 .sf-menu li.sale > a {
-  background-color: #e60000;
-  color: #ffffff;
+  /* background-color: #e60000; */
+  color: #a5abb7;
+  background-color: white;
 }
 .menu-toggle {
   display: none;

@@ -1954,7 +1954,7 @@ input[type=checkbox] {
   }
   .sf-menu li.sale > a,
   .sf-menu li.sale > a:hover {
-    background-color: #fc3f0d !important;
+    /* background-color: #fc3f0d !important; */
     columns: #ffffff !important;
   }
   .product-list .media-link {

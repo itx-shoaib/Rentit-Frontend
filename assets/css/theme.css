@@ -4632,7 +4632,7 @@ input[type=checkbox] {
   border-top: solid 1px #d3d3d3;
 }
 .tabs.awesome-sub li.active {
-  background-color: #fc3f0d;
+  background-color: #fc3f0d !important;
   color: #ffffff;
 }
 .tabs.awesome-sub li.active:before {
@@ -4642,7 +4642,7 @@ input[type=checkbox] {
   width: 0;
   height: 0;
   border-top: 35px solid transparent;
-  border-left: 35px solid #fc3f0d;
+  border-left: 35px solid #fc3f0d !important;
   border-bottom: 35px solid transparent;
   border-right: none;
   left: auto;
@@ -6572,8 +6572,8 @@ input[type=checkbox] {
 .widget.widget-tabs .nav-justified > li.active > a,
 .widget.widget-tabs .nav-justified > li > a:hover,
 .widget.widget-tabs .nav-justified > li > a:focus {
-  border-color: #fc3f0d;
-  background-color: #fc3f0d;
+  border-color: #fc3f0d !important;
+  background-color: #fc3f0d !important;
   color: #ffffff;
 }
 .widget.widget-tabs .tab-content {

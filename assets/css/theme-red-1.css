@@ -3499,7 +3499,7 @@ input[type=checkbox] {
 /* ========================================================================== */
 .page-section.breadcrumbs {
   background-color: #f5f6f8;
-  padding-top: 0;
+  padding-top: 150px;
   padding-bottom: 0;
   z-index: 1;
 }

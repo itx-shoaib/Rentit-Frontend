@@ -1418,7 +1418,7 @@ input[type=checkbox] {
 .logo {
   width: 220px;
   height: 100px;
-  line-height: 100px;
+  line-height: 90px;
   background-color: #e60000;
   position: absolute;
   z-index: 999;
@@ -5963,7 +5963,7 @@ input[type=checkbox] {
   position: relative;
 }
 .car-big-card .car-details ul li:before {
-  content: '\f058';
+  /* content: '\f058'; */
   font-family: 'FontAwesome';
   position: absolute;
   top: 7px;

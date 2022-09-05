@@ -91,11 +91,28 @@
   text-transform: uppercase;
 }
 .bg{
-  background-image: url(../img/preview/slider/slide-1.jpg);
+  background-image: url(../img/bg-2.jpg);
   background-size: cover;
   /* width: 100% !important; */
-  height: auto;
+  height: 100vh;
   padding: 20px;
+
+}
+
+@media (max-width:576px) {
+  .bg{
+    height: 50vh;
+    width: 100%;
+    background-position: bottom;
+  }
+}
+
+@media (max-width:900px) {
+  .bg{
+    height: 50vh;
+    width: 100%;
+    background-position: bottom;
+  }
 
 }
 
@@ -248,6 +265,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.font{
+  font-size: 18px !important;
+}
 .page-section.sm-padding {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -394,6 +415,12 @@ a:focus {
 a:not(.btn-theme) {
   color: #fc3f0d;
 }
+
+.Imglogo{
+  background-color: #ffffff !important;
+  width: 20% !important;
+  height: 40px !important;
+}
 a:not(.btn-theme):hover,
 a:not(.btn-theme):active,
 a:not(.btn-theme):focus {
@@ -429,7 +456,7 @@ ol.list-check li {
 }
 ul.list-check li:before,
 ol.list-check li:before {
-  content: '\f046';
+  /* content: '\f046'; */
   font-family: 'FontAwesome';
   position: absolute;
   top: 0;
@@ -1442,8 +1469,8 @@ input[type=checkbox] {
 /* ========================================================================== */
 .logo {
   width: 220px;
-  height: 100px;
-  line-height: 100px;
+  height: 50px;
+  line-height: 96px;
   background-color: black;
   position: absolute;
   z-index: 999;
@@ -1454,11 +1481,11 @@ input[type=checkbox] {
   margin: auto auto;
   display: block;
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
 }
 .logo img {
   max-width: 100%;
-  width: 69%;
+  width: 40%;
   height: auto;
 }
 .is-sticky .logo {
@@ -3396,6 +3423,10 @@ input[type=checkbox] {
   margin-top: 70px;
   border-radius: 50%;
   width: auto;
+}
+
+.imp{
+  width: 90px !important;
 }
 .testimonials-carousel .testimonial .media-left {
   padding-right: 30px;
@@ -6034,7 +6065,7 @@ input[type=checkbox] {
   position: relative;
 }
 .car-big-card .car-details ul li:before {
-  content: '\f058';
+  /* content: '\f058'; */
   font-family: 'FontAwesome';
   position: absolute;
   top: 7px;
@@ -8315,6 +8346,13 @@ body.full-screen-map .form-search .row-submit .inner {
   width: 350px !important;
   top: 20px !important;
   left: 0 !important;
+}
+
+
+.stikcycustom{
+  position: fixed !important;
+  z-index: 2000 !important;
+  width: 100% !important;
 }
 /* 5.16 */
 /* Back to top button

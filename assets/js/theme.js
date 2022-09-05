@@ -78,11 +78,11 @@ jQuery(document).ready(function () {
     });
     // Sticky header/menu
     // ---------------------------------------------------------------------------------------
-    if ($().sticky) {
-        $('.header.fixed').sticky({topSpacing: 0});
-        //$('.header.fixed').on('sticky-start', function() { console.log("Started"); });
-        //$('.header.fixed').on('sticky-end', function() { console.log("Ended"); });
-    }
+        // if ($().sticky) {
+        //     $('.header.fixed').sticky({topSpacing: 0});
+        //     $('.header.fixed').on('sticky-start', function() { console.log("Started"); });
+        //     $('.header.fixed').on('sticky-end', function() { console.log("Ended"); });
+        // }
     // SuperFish menu
     // ---------------------------------------------------------------------------------------
     if ($().superfish) {

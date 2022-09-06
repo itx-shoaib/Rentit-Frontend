@@ -3514,7 +3514,7 @@ input[type=checkbox] {
   background-color: transparent;
 }
 .page-section.breadcrumbs .breadcrumb a {
-  color: #9ea6b1;
+  color: #f0f0f0;
 }
 .page-section.breadcrumbs .breadcrumb a:hover {
   border-bottom: solid 1px #14181c;
@@ -3527,7 +3527,7 @@ input[type=checkbox] {
   font-family: 'FontAwesome';
 }
 .page-section.breadcrumbs .breadcrumb > .active {
-  color: #a5abb7;
+  color: #f0f0f0;
 }
 .page-section.breadcrumbs .page-header {
   padding: 0;
@@ -3536,7 +3536,7 @@ input[type=checkbox] {
 }
 .page-section.breadcrumbs .page-header h1,
 .page-section.breadcrumbs .page-header h1 small {
-  color: #9ea6b1;
+  color: #f0f0f0;
   text-transform: uppercase;
 }
 .page-section.breadcrumbs .page-header h1 {

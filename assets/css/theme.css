@@ -171,6 +171,12 @@
   }
 }
 
+@media (max-width:375px){
+  .aboutbg{
+    height: 65vh !important;
+  }
+}
+
 .top-right{
   padding: 20px;
   /* float: right; */

@@ -1459,8 +1459,9 @@ input[type=checkbox] {
     line-height: 50px;
   }
   .logo img {
-    max-width: none;
-    height: 40px;
+    /* max-width: none; */
+    height: 46px;
+    width: 74px;
   }
 }
 @media (max-width: 480px) {
